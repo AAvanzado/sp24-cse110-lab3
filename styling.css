@@ -46,6 +46,7 @@ p {
 
     height:auto;
     min-width:100px;
+    max-width: 600px;
 }
 
 button:hover{
@@ -86,4 +87,18 @@ ul{
 }
 .graphics {
     clear: left;
+}
+
+@media (max-width: 1000px) {
+    *{
+        font-size: 60px;
+        margin: 10px;
+        clear:left;
+        max-width: 1000px;
+    }
+    .idea1, .idea2{
+        max-width: 1000px;
+        float: left;
+        margin-left: 20px;
+    }
 }

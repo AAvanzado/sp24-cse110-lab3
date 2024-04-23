@@ -13,6 +13,8 @@ h1 {
     height: auto;
     width: fit-content;
 
+    position: top;
+
 }
 
 h2 {
@@ -20,6 +22,7 @@ h2 {
     margin-top: 10px;
     text-decoration: underline;
     text-align: left;
+    position: static;
 }
 
 h3 {

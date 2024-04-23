@@ -47,6 +47,16 @@ p {
     min-width:fit-content;
 }
 
+button:hover{
+    color:red;
+}
+
+button:active{
+    background-color:red;
+    color: white;
+}
+
+
 #hidden{
     display: none;
 }

@@ -13,7 +13,7 @@ h1 {
     height: auto;
     width: fit-content;
 
-    position: top;
+    position: sticky;
 
     display:flex;
 }
@@ -27,9 +27,9 @@ h2 {
 }
 
 h3 {
-    color:hsl(from brown 150 250 70);
+    color:hsl(200 100 20);
     padding-bottom: 5px;
-    margin: 10en 10rem 10vh 1px;
+    margin: 1em 1rem 1vh 1px;
 }
 
 p {

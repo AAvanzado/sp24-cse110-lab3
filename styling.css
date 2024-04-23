@@ -1,9 +1,12 @@
+
+
 h1 {
     color: rgb(11, 133, 11);
     background-color: color(from rgb(31, 178, 223) srgb r g b / 0.5);
     padding: 1cm 10mm 10mm 1cm;
     margin: auto;
 
+    /*Border styling*/
     border-style:solid;
     border-color: black;
     border-radius: 30px;
@@ -28,8 +31,16 @@ p {
     color: var(--brand-color, black);
     background-color: color-mix(in srgb, #0c4daf 50%, #86d322 50%);
     padding: 10px;
+
+    /*Border Styling*/
     border-style: solid;
     border-color: black;
     border-width: 5px;
     border-radius: 30px;
+
+    display: block
+}
+
+#hidden{
+    display: none;
 }

@@ -1,18 +1,33 @@
 h1 {
-    color: rgb(50,200,50);
-    background-color: color(from blue srgb r g b / 0.5)
+    color: rgb(11, 133, 11);
+    background-color: color(from rgb(31, 178, 223) srgb r g b / 0.5);
+    padding: 1cm 10mm 10mm 1cm;
+    margin: auto;
+
+    border-style:solid;
+    border-color: black;
+    border-radius: 30px;
+    border-width: 5px
+
 }
 
 h2 {
     color: #0161f1;
+    margin-top: 10px;
 }
 
 h3 {
     color:hsl(from brown 150 250 70);
+    padding-bottom: 5px;
+    margin: 10en 10rem 10vh 1px;
 }
 
 p {
     color: var(--brand-color, black);
     background-color: color-mix(in srgb, #0c4daf 50%, #86d322 50%);
     padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 30px;
 }

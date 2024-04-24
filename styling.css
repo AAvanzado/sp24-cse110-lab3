@@ -136,3 +136,13 @@ h3 + h4{
 p.formPrompt{
     color:rgb(0, 217, 255);
 }
+
+h2:has(+ p){
+    color:rgb(192, 0, 0);
+}
+
+p{
+    & b{
+        color:antiquewhite;
+    }
+}

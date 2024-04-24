@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-    color:hsl(200 100 20);
+    color:hsl(200 100% 20%);
     padding-bottom: 5px;
     margin: 1em 1rem 1vh 1px;
 }

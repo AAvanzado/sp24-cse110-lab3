@@ -114,3 +114,25 @@ img[width]{
     border-width: 10px;
     border-color: green;
 }
+
+ul li{
+    color:darkcyan;
+}
+
+ol > li{
+    color:rgb(45, 71, 0);
+}
+
+h1 ~ h3{
+    color:rgb(0, 116, 19);
+    text-decoration: underline;
+}
+
+h3 + h4{
+    color:rgb(255, 55, 55);
+    text-align: center;
+}
+
+p.formPrompt{
+    color:rgb(0, 217, 255);
+}

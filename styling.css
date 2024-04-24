@@ -102,3 +102,15 @@ ul{
         margin-left: 20px;
     }
 }
+
+#attendence{
+    background-color: rgb(167, 167, 167);
+    padding: 10px;
+}
+
+img[width]{
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: green;
+}
